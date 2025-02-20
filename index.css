@@ -1,3 +1,28 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(204, 202, 202);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.div1-class{
+  background-color: aqua;
+}
+.div1-class:hover{
+  background-color: white;
+}
+
+.div2-class{
+  background-color: yellow;
+}
+.div2-class:hover{
+  background-color: white;
+}
+
+.imagenes *{
+  width: 50px;
+  height: 50px;
+}
+
